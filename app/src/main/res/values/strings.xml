@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Star Wars Wiki</string>
+    <string name="title_activity_lista_pessoas">Star Wars Wiki List</string>
+    <string name="title_activity_splash">Star Wars Wiki</string>
+    <string name="title_activity_pessoa">Detalhes Personagem</string>
+    <string name="nome">Nome</string>
+    <string name="altura">Altura</string>
+    <string name="massa">Massa</string>
+    <string name="cor_cabelo">Cor Cabelo</string>
+    <string name="cor_pele">Cor Pele</string>
+    <string name="ano_nascimento">Ano Nascimento</string>
+    <string name="sexo">Sexo</string>
+</resources>

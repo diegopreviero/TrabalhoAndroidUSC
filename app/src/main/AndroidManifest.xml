@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="estudae.com.br.starwarswiki">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/darth"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/darth"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".SplashActivity"
+            android:label="@string/title_activity_splash"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".ListaPessoasActivity"
+            android:label="@string/title_activity_lista_pessoas"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".PessoaActivity"
+            android:label="@string/title_activity_pessoa"
+            android:theme="@style/AppTheme.NoActionBar"
+            android:parentActivityName=".ListaPessoasActivity"/>
+    </application>
+
+</manifest>
